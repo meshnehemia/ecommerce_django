@@ -29,3 +29,7 @@ def addproduct(request):
 
 def about(request):
     return render(request, 'shop/aboutus.html')
+
+
+def favorites(request):
+    return render(request, 'shop/favourites.html')

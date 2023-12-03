@@ -41,5 +41,14 @@ class Sales(models.Model):
 class Suggestions(models.Model):
     pass
 
+
 class Transactions(models.Model):
+    pass
+
+
+class SpecialOffer(models.Model):
+    pass
+
+
+class Couponcode(models.Model):
     pass
