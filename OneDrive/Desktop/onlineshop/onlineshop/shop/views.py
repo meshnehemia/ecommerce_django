@@ -21,3 +21,11 @@ def shop(request):
 
 def contact(request):
     return render(request, 'shop/contact.html')
+
+
+def addproduct(request):
+    return render(request, 'shop/addProduct.html')
+
+
+def about(request):
+    return render(request, 'shop/aboutus.html')
